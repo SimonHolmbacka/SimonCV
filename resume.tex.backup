@@ -1,0 +1,255 @@
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Kamil K Wojcicki
+\documentclass[margin,line]{resume}
+\usepackage[latin1]{inputenc}
+\usepackage{graphics}
+\usepackage{amsmath,amssymb}
+\usepackage{gensymb}
+\usepackage{amsthm}
+\usepackage{wrapfig,lipsum,booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabulary}
+\usepackage{epigraph}
+\usepackage{mwe}
+\usepackage[autostyle]{csquotes} 
+\usepackage{lipsum,lmodern}
+\usepackage[skins]{tcolorbox}
+\usepackage{pgf,tikz}
+\usetikzlibrary{arrows,shapes,backgrounds,fit}
+\usetikzlibrary{arrows,automata}
+
+\usepackage{fancyvrb}
+\usepackage{listings}
+\usepackage{color}
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Simon Holmbacka. PhD -- Resume}
+\begin{resume}
+\begin{picture}(320,0)
+\put(350,-130){\includegraphics[scale=0.8]{simon.jpg}}
+\end{picture}
+    %__________________________________________________________________________________________________________________
+    % Contact Information
+    \section{\mysidestyle Contact\\Information}
+
+    Embedded Systems Laboratory                         	     \vspace{0mm}\\\vspace{0mm}%
+    Faculty of Science and Engineering                           \vspace{0mm}\\\vspace{0mm}%
+    Åbo Akademi University, Finland			       		\vspace{0mm}\\\vspace{-4.5mm}%
+    
+\small{
+    Frantsinkatu 2 B 9			\vspace{0mm}\\\vspace{0mm}%
+    20540				\vspace{0mm}\\\vspace{0mm}%
+    Turku				\vspace{0mm}\\\vspace{0mm}%
+    Finland				\vspace{0mm}\\\vspace{0mm}%
+    Tel: +358 50 5310467		\vspace{0mm}\\\vspace{0mm}%
+    Email: sholmbac@abo.fi		\vspace{0mm}\\\vspace{-4.5mm}%
+    }
+
+\section{\mysidestyle Position}
+    \textbf{Post-Doc Researcher}	\hfill \textbf{2016 -- }\vspace{0mm}\\\vspace{0mm}%
+    Åbo Akademi University Finland. Faculty of Science and Engineering,\\ Embedded Systems Laboratory.\\
+    \textbf{Wissenschaftlicher Mitarbeiter} \hfill \textbf{2015 -- }\vspace{0mm}\\\vspace{0mm}%
+    Fernuniversit\"{a}t in Hagen, Germany. Lehrgebiet Parallelit\"{a}t \& VLSI
+
+\section{\mysidestyle Education}
+
+    \textbf{Åbo Akademi University}, Finland \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Doctor of Technology in Computer Engineering} \hfill \textbf{ 2011 -- 2015}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+        \item Faculty: Science and Engineering
+	\item Major: Embedded Computer Systems
+	\item Minor: Software Engineering
+	\item Minor: University Pedagogics
+	\item Thesis: \textit{Energy-Aware Software for Many-Core Systems} \textbf{Grade:} Honorary Grade
+    \end{list2}\vspace{-1.5mm}
+    \textsl{Master of Science in Computer Engineering} \hfill \textbf{ 2009 -- 2011}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+        \item Institution: Information Technologies
+	\item Major: Embedded Computer Systems
+	\item Minor: Control Engineering
+	\item Minor: Software Engineering
+	\item Thesis: \textit{Task Migration in Virtualized Multi-Core Real-Time Systems} \textbf{Grade:} 5/5
+    \end{list2}\vspace{-1.5mm}
+    \textsl{Bachelor of Science in Computer Engineering} \hfill \textbf{ 2006 -- 2009}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+        \item Institution: Information Technologies
+	\item Major: Embedded Computer Systems
+	\item Minor: Software Engineering
+    \end{list2}\vspace{-1.5mm}
+    
+\section{\mysidestyle About me}
+I come from the small city of Jakobstad in the mid west of Finland from which I moved to Turku to study computer engineering in 2006.
+I completed my Master's degree in 5 years (2006 -- 2011) and my PhD in 4 years (2011 -- 2015) from \AA{}bo Akademi University in Turku, Finland.
+
+\hspace{-2.0cm} \textit{Technical}\\
+On the technical side, I have worked extensively in the areas of embedded systems, runtime systems, power management and many-core platforms.
+This includes foremost low level system programming (usually in C). 
+Furthermore I have experience in object oriented programming languages, mostly C++ and Java, and I have of course stumbled upon some Python, C\#, .net, VB, Java script, xml and assembly here and there. 
+I have worked with system modeling, mathematical optimization and control theory including NLP optimization, digital filtering, plane fitting methods, control theory and its underlying mathematics. 
+This means that I have very good knowledge of Matlab, its toolboxes and Simulink.
+On the hardware side, I have excellent knowledge of ARM and Intel platforms in particular, and system/kernel programming using Linux. 
+I have been hacking with the Linux kernel since I was 16 years old and know this world in and out.
+On further lower level I have worked with real-time operating systems like FreeRTOS during my PhD and I have also build many hobby projects from scratch using micro controllers such as an audio synthesizer complete with a midi interface and USB driver running on an 8-bit AVR.
+\clearpage
+
+\hspace{-2.0cm} \textit{Project Work}\\
+In the 4 years of making my PhD I have published over 15 international peer reviewed scientific articles, one of which I received the best paper award for in 2014. 
+I worked in the European FP-7 project RECOMP from 2011 -- 2014 and in the national Tekes project ParallaX from 2014 -- 2016, in which I worked together with universities and
+international IT companies like Wittenstein ltd., UK and Seven Solutions, Spain on programming and integration tasks.
+I am a very good team worker, which has shown in co-operations with 7 different universities in 4 countries during this time for my thesis, and outside of my thesis I have published work together with 12 different institutions and co-authored work together with over 30 people.
+I have visited more than 30 countries in my thesis work, and I find it very easy to join a team and start working on new projects with new people. 
+
+\hspace{-2.0cm} \textit{Languages}\\
+\includegraphics[scale=0.1]{flags.png}\\
+My mother tongue is Swedish as I come from the Swedish speaking region of Finland this also includes knowledge in Norwegian and Danish.
+I am fluent in English and conversational in Finnish and in German. 
+
+\hspace{-2.0cm} \textit{Pedagogics}\\
+Education wise, I have been lecturing university courses in English since 2013 and completed university pedagogics as a minor subject.
+I created an online education MooC on coursera.org from scratch in the EIT Digital project in 2015 and 2016, which is now freely available on Coursera and has over 2000 active students.\\ 
+\color{blue}https://www.coursera.org/learn/real-time-systems/\color{black}
+
+\hspace{-2.0cm} \textit{About Simon}\\
+I would describe myself as a person who takes the initiative and gets things started. 
+I have a very good working discipline with regard to time and responsibility, and \textit{I always do the work today instead of leaving it until tomorrow}! 
+I always start a task well on time, and I keep the promised timelines whether it is a question of delivering C code, an article, a presentation, course material or a PhD thesis.\\ 
+My hobbies -- besides embedded systems hacking -- are traveling, gardening, skiing, hiking and workout.
+
+
+\section{\mysidestyle Teaching\\Experience}
+  Course creator/lecturer: EIT Digital Online Coursera \textit{Development of Real-Time Systems} spring 2016\\
+  \color{blue}https://www.coursera.org/learn/real-time-systems/\color{black}\\\\
+  Pr\"{u}fer f\"{u}r Abschlussarbeiten: FernUniversit\"{a}t in Hagen 2015 -- 2016\\\\
+  Course lecturer: Real-Time Systems Åbo Akademi University spring 2016\\
+  Course assistant: Multimedia Algorithm Implementations Åbo Akademi University spring 2016\\
+  Course lecturer: Real-Time Systems Åbo Akademi University spring 2015\\
+  Course lecturer: Real-Time Systems Åbo Akademi University spring 2014\\
+  Course lecturer: Real-Time Systems Åbo Akademi University spring 2013\\
+  Course assistant: Multimedia Algorithm Implementations Åbo Akademi University spring 2013\\
+  Course lecturer: Real-Time Systems Åbo Akademi University spring 2012\\
+  Course assistant: Real-Time Systems Åbo Akademi University spring 2011\\\\
+
+\section{\mysidestyle Research\\Interests}
+
+    Energy-Aware Software, Power Management, Parallel Programming, Many-Core Systems, Control Theory    
+
+\section{\mysidestyle Research Summary: \textit{\\Energy Aware \\Software}}
+Energy efficiency is today one of the most important research areas in computer science. 
+At the development of all kinds of systems from mobile phones to laptops, desktops and high capacity servers, a battle to fight energy efficiency is becoming a reality.    
+To fight this problem, systems integrate more and more power management capabilities.
+% Power management has traditionally been an area of research providing hardware solutions or runtime power management in the operating system in form of frequency governors.
+The current problem in power management systems is that the software is unable to communicate with the runtime systems sufficiently.
+This often causes over-allocation of resources leading to energy waste without any performance benefit.
+The reason is that applications are not involved in the power management decisions, nor does any interface between the applications and the runtime system exist. 
+\textit{Energy awareness in application software is therefore non-existent.}
+In my research work, I am creating the link between applications and the runtime system for expressing \textbf{energy awareness}.
+Like using OpenMP \texttt{pragmas} or OpenCL initializations for expressing parallelism, my framework allows the programmer to express energy and power requirement parameters in form of meta-data directly in the application.
+The parameters -- together with a new power management system -- eliminate over-allocation of resources and increase the energy efficiency of the computing system.
+Experiments on real-world platforms have shown up to 50\% lower energy consumption without performance degradation for every-day applications like HD video decoding, by using my methods for energy aware programming.
+% To utilize the energy-aware methodologies, energy-awareness should be a part of the natural development environment from programmer- to language- to compiler- and runtime.
+My goal is to create a tool-chain for energy aware programming usable for both new- and legacy applications in platform domains from IoT embedded platform to mobile phone devices and large many-core server machines.
+\clearpage  
+  
+\section{\mysidestyle Research Visits}
+\textbf{Rennes 4 month research visit}\\
+Location: Rennes, France\\
+Institution: Institut national des sciences appliqu\'{e}es de Rennes\\
+Host: Maxime Pelcat, ITER Laboratory\\
+Duration: \hfill \textbf{November 2013 - March 2014}
+
+\section{\mysidestyle Joint-Cooperation}
+    \textbf{Green Energy Cloud Simulation}\\
+    \textsl{Partners: Enida Sheme, Polytechnic University of Tirana, Tirana, Albania}\\
+    \textsl{Dra\v{z}en Lu\v{c}anin, TU Vienna, Vienna, Austria}\\
+    Duration: \hfill \textbf{August 15 - November 30 2015}
+
+    \textbf{Energy Efficient Cloud Simulation}\\
+    \textsl{Partners: Dra\v{z}en Lu\v{c}anin, Ilia Pietri, Ivona Brandi\'{c}, TU Vienna, Vienna, Austria}\\
+    Duration: \hfill \textbf{May 15 - May 30 2015}
+
+    \textbf{Power-Aware HEVC Decoding with Tunable Image Quality}\\
+    \textsl{Partners: Erwan Nogues, Maxime Pelcat, INSA de Rennes, France}\\
+    Duration: \hfill \textbf{Winter 2014}
+
+    \textbf{Barrelfish port for Tilera Tile64}\\
+    \textsl{Partners: Xiaowen Wang, Robert Radkiewicz, Mats Brorsson, SICS, Stockholm, Sweden}\\
+    Duration: \hfill \textbf{Summer 2013}
+    
+    \textbf{Task Migration Mechanism for Distributed Many-Core NoC Systems}\\
+    \textsl{Partners: Mohammad Fattah, Amir-Mohammad Rahmani, University of Turku, Finland}\\
+    Duration: \hfill \textbf{Spring 2013}
+
+    \textbf{Safe Motor Controller in Mixed-Critical Environment with Runtime Updating Capabilities}\\
+    \textsl{Partners: Jos\'{e} Luis Guti\'{e}rrez, University of Granada, Spain \\ Miguel M\'{e}ndez, Seven Solutions Inc., Spain} \\
+    Duration: \hfill \textbf{November 5 - November 17 2012}
+
+    \textbf{Safe core-to-core channel implementation}\\
+    \textsl{Partners: William Davy, Wittenstein Inc., UK} \\
+    Duration: \hfill \textbf{May 23 - May 24 2012}
+% \clearpage
+    \section{\mysidestyle Work\\Experience}
+    \textbf{Åbo Akademi University}, Turku, Finland\\%
+    \textsl{Post-Doc Researcher} \hfill \textbf{January 2016 --}\\
+    \textbf{Fernuniversit\"{a}t in Hagen}, Hagen, Germany\\%
+    \textsl{Wissenschaftlicher Mitarbeiter} \hfill \textbf{September 2015 --}
+    
+    \textbf{Åbo Akademi University}, Turku, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{PhD Student} \hfill \textbf{March 2011 -- December 2015}\\
+    \textsl{Research assistant} \hfill \textbf{April 2010 -- March 2011}  
+
+    \textbf{Brisa Inc.}, Peders\"{o}re, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{IT manager} \hfill \textbf{May 2009 -- September 2009}
+
+    \textbf{Herrmans Inc.}, Peders\"{o}re, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{IT support} \hfill \textbf{May 2008 -- September 2008}
+
+    \textbf{Brisa Inc.}, Peders\"{o}re, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Webshop assistant} \hfill \textbf{May 2007 -- September 2007}
+
+    \textbf{Digicomp Inc.}, Jakobstad, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Sales person} \hfill \textbf{July 2006 -- September 2006}\\    
+    \textsl{Technical support} \hfill \textbf{May 2005 -- January 2005}
+    
+
+    %__________________________________________________________________________________________________________________
+    % Referees
+%    \section{\mysidestyle Referees} 
+%    {\sl Available on request.}
+
+
+
+%______________________________________________________________________________________________________________________
+\section{\mysidestyle Referees} 
+
+\begin{tabular}{@{}p{4.5cm}p{5cm}p{6cm}}
+\textbf{Prof. Johan Lilius}       &  \textbf{Doc. Sébastien Lafond}	&  \textbf{Prof. J\"{o}rg Keller}                   \\
+Professor                               &  Assistant Professor & Professor                       \\
+Åbo Akademi University                     &  Åbo Akademi University   & Fernuniversit\"{a}t in Hagen                   \\
+Turku Finland			           &  Turku Finland        & Hagen Germany\\
+phone: \textsl{available on request}    &  phone: \textsl{available on request}  &  phone: \textsl{available on request}      \\
+e-mail: \textsl{johan.lilius@abo.fi}   &  e-mail: \textsl{sebastien.lafond@abo.fi}  &  e-mail: \textsl{joerg.keller@fernuni-hagen.de}   \\
+\end{tabular}
+
+% \begin{tabular}{@{}p{6cm}p{6cm}}
+% \textbf{Dr Conrad Sanderson}            &  \textbf{Mr Sean Loye}                    \\
+% Researcher                              &  Systems Engineer                         \\
+% National ICT Australia                  &  Hewlett Packard                          \\
+% St Lucia, Queensland, Australia         &  Milton, Queensland, Australia            \\
+% phone: \textsl{available on request}    &  phone: \textsl{available on request}     \\
+% e-mail: \textsl{available on request}   &  e-mail: \textsl{available on request}    \\
+% \end{tabular}
+
+
+
+%______________________________________________________________________________________________________________________
+
+\include{ecourse}
+
+\end{resume}
+\end{document}
+
+
+%______________________________________________________________________________________________________________________
+% EOF
+

@@ -1,0 +1,256 @@
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Kamil K Wojcicki
+\documentclass[margin,line]{resume}
+\usepackage[latin1]{inputenc}
+
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Simon Holmbacka}
+\begin{resume}
+
+    %__________________________________________________________________________________________________________________
+    % Contact Information
+    \section{\mysidestyle Contact\\Information}
+
+    Embedded Systems Laboratory                         	     \vspace{0mm}\\\vspace{0mm}%
+    Institution of Information Technologies                           \vspace{0mm}\\\vspace{0mm}%
+    Åbo Akademi University, Finland			       		\vspace{0mm}\\\vspace{-4.5mm}%
+
+    Frantsinkatu 2 B 9			\vspace{0mm}\\\vspace{0mm}%
+    20540				\vspace{0mm}\\\vspace{0mm}%
+    Turku				\vspace{0mm}\\\vspace{0mm}%
+    Finland				\vspace{0mm}\\\vspace{0mm}%
+    Tel: +358 50 5310467		\vspace{0mm}\\\vspace{0mm}%
+    Email: sholmbac@abo.fi		\vspace{0mm}\\\vspace{-4.5mm}%
+    %__________________________________________________________________________________________________________________
+    % Research Interests
+    \section{\mysidestyle Research\\Interests}
+
+    Many-Core platforms, Power management, Quality-of-Service, Many-Core operating systems, Control theory
+
+
+    \section{\mysidestyle Position}
+    PhD student	\hfill \textbf{2011 --}\vspace{0mm}\\\vspace{0mm}%
+    Åbo Akademi University Finland. Institution of Information Technologies, Embedded Systems Laboratory.
+
+
+
+    %__________________________________________________________________________________________________________________
+    % Education
+    \section{\mysidestyle Education}
+
+    \textbf{Åbo Akademi University}, Finland \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Master of Science in Computer Engineering} \hfill \textbf{ 2009 -- 2011}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+        \item Institution: Information Technologies
+	\item Major: Embedded Computer Systems
+	\item Minor: Control Engineering
+	\item Minor: Software Engineering
+	\item Thesis: \textit{Task Migration in Virtualized Multi-Core Real-Time Systems}
+    \end{list2}\vspace{-1.5mm}
+    \textsl{Bachelor of Science in Computer Engineering} \hfill \textbf{ 2006 -- 2009}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+        \item Institution: Information Technologies
+	\item Major: Embedded Computer Systems
+	\item Minor: Software Engineering
+    \end{list2}\vspace{-1.5mm}
+    
+
+    \section{\mysidestyle Summary of Current Research}
+Scalability in computer systems has recently become a problem since general purpose computers (desktop computers) start to use a very large amount of processor cores.
+The scalability problem means that the performance of the processor does increase at the same rate as cores are added, but slower.
+In the same way, thermal, energy and power scaling also poses problem to these new type of processors.
+When packing a large amount of core into a single die of silicon, the difficulty of leading heat away increases. 
+Furthermore, power is easily wasted if cores are idling without performing any useful task.
+This problem will increase as the amount of cores grow since modern operating system are not really suited for this kind of platforms.
+
+My research aims towards increasing energy scalability in the operating system.
+Our goal is to design a new type of operating system more suitable for massively parallel processors as the trend goes towards.
+The main focus has been on power management and Quality of Service.
+A power manager was created exploiting the idea of cloud computing; \textit{you don't pay for more than what you use}.
+In this case no power should dissipated if no work is done.
+The power manager was integrated into a web server, and controlled the amount of running cores depending of the workload.
+Quality of Service, also a term used in cloud computing, is used for \textit{selling} a bundle of processing power to the user.
+The clients using the processing power on operating system level are the applications otherwise fighting for the CPU.
+We intend to integrate the possibility for applications to express Quality of Service.
+The clients are provided with the necessary amount of processing power, but not more.
+This leads to a system with high performance and less unnecessary resource waste.
+
+
+    %__________________________________________________________________________________________________________________
+    % Publications
+\section{\mysidestyle Publications -- Journals}
+Simon Holmbacka, Mohammad Fattah, Wictor Lund, Amir-Mohammad Rahmani, S\'{e}bastien Lafond, Johan Lilius:
+\textit{A Task Migration Mechanism for Distributed Many-Core Operating Systems}, \textsl{The Journal of Supercomputing. Springer US}, 2014 
+\clearpage
+\section{\mysidestyle Publications -- Proceedings}
+Simon Holmbacka, Wictor Lund, Sébastien Lafond, Johan Lilius: \textit{Lightweight Framework for Runtime Updating of C-Based Software in Embedded Systems},
+    \textsl{5th Workshop on Hot Topics in Software Upgrades}, 2013, San Jose, US
+
+\vspace{-2mm}
+
+Simon Holmbacka, Wictor Lund, Sébastien Lafond, Johan Lilius: \textit{QoS Manager for Energy Efficient Many-Core Operating Systems},
+    \textsl{21st Euromicro International Conference on Parallel, Distributed and Network-Based Processing}, 2013, Belfast, UK
+
+
+\vspace{-2mm}
+
+Simon Holmbacka, Dag \AA{}gren, Sébastien Lafond, Johan Lilius: \textit{Task Migration for Dynamic Power and Performance Characteristics on Many-Core Distributed Operating Systems},
+    \textsl{21st Euromicro International Conference on Parallel, Distributed and Network-Based Processing}, 2013, Belfast, UK
+
+\vspace{-2mm}
+
+Simon Holmbacka, Sébastien Lafond, Johan Lilius: \textit{A PID-Controlled Power Manager for Energy Efficient Web Clusters}, 
+    \textsl{International Conference on Cloud and Green Computing}, Sydney, Australia 2011.
+
+\vspace{-2mm}
+
+Simon Holmbacka, Sébastien Lafond, Johan Lilius: \textit{Power Proportional Characteristics of an Energy Manager for Web Clusters}, 
+    \textsl{11:th International Conference on Embedded Computer Systems: Architctures, Modeling and Simulation},2011, Samos, Greece
+
+\vspace{-2mm}
+
+Simon Holmbacka, Jens Smeds, Sébastien Lafond, Johan Lilius: \textit{System Level Power Management for Many-Core Systems},
+    \textsl{uPM2SoC workshop, DATE '11 Conference}, 2011, Grenoble, France
+
+
+   
+
+
+
+
+
+    %__________________________________________________________________________________________________________________
+    % Professional Experience
+
+    \section{\mysidestyle Teaching\\Experience}
+      Course lecturer: Real-Time Systems Åbo Akademi Univsersity spring 2014\\
+      Course lecturer: Real-Time Systems Åbo Akademi Univsersity spring 2013\\
+      Course assistant: Multimedia Algorithm Implementations Åbo Akademi Univsersity spring 2013\\
+      Course lecturer: Real-Time Systems Åbo Akademi Univsersity spring 2012\\
+      Course assistant: Real-Time Systems Åbo Akademi University spring 2011\\    
+
+\vspace{4mm}
+\section{\mysidestyle Research Visits}
+\textbf{Rennes 4 month research visit}\\
+Location: Rennes, France\\
+Institution: Institut national des sciences appliqu\'{e}es de Rennes\\
+Host: Maxime Pelcat, ITER Laboratory\\
+Duration: \hfill \textbf{November 2013 - March 2014}
+\section{\mysidestyle Specialized Courses}
+    \textbf{Runtime systems for heterogeneous platform programming}\\
+    Location: Bordeaux, France\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Host: Emmanuel Jeannot, INRIA Bordeaux, France} \\
+    Duration: \hfill \textbf{May 22 - May 23 2014}
+
+    \textbf{COST804 Training School on Energy Efficiency in Large Scale Distributed Systems}\\
+    Location: Palma, Spain\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Host: Louis-Francois Pau, Copenhagen Business School, Denmark} \\
+    Duration: \hfill \textbf{April 24 - April 27 2012}
+
+    \textbf{ERASMUS IP, Industry and University Cooperation} \\
+    Location: Porto, Portugal\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Host: Jo\~{a}o M. Fernandez, University of Minho and EFACEC, Portugal} \\
+    Duration: \hfill \textbf{Jan 30 - Feb 18 2012}
+
+    \textbf{PikeOS Training}\\
+    Location: Frankfurt, Germany\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Host: Henrik Theiling, Sysgo, Germany} \\
+    Duration: \hfill \textbf{October 5 2011}
+
+    \textbf{ARTIST Summer School on ICT for Future Energy System} \\
+    Location: Trento, Italy\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Host: Davide Brunelli, University of Trento, Italy} \\
+    Duration: \hfill \textbf{July 25 - 29 2011}
+
+    \textbf{IEC61508 Certification Training} \\
+    Location: M\"{u}nchen, Germany\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Host: Uwe Kremer, TUV S\"{u}d, Germany} \\
+    Duration:\hfill \textbf{September 7 2010}
+\clearpage
+    \textbf{ARM Cortex-M3, Atmel Qtouch Training}\\
+    Location: Coventry, UK\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Host: Ben Clarke, Nu Horizons electronics, UK} \\
+    Duration: \hfill \textbf{February 10 - 11 2009}
+
+
+\section{\mysidestyle Joint-Cooperation}
+
+    \textbf{Barrelfish port for Tilera Tile64}\\
+    \textsl{Partners: Xiaowen Wang, Robert Radkiewicz, Mats Brorsson, SICS, Stockholm, Sweden}\\
+    Duration: \hfill \textbf{Summer 2013}
+
+    \textbf{Task Migration Mechanism for Distributed Many-Core NoC Systems}\\
+    \textsl{Partners: Mohammad Fattah, Amir-Mohammad Rahmani, University of Turku, Finland}\\
+    Duration: \hfill \textbf{Spring 2013}
+
+    \textbf{Safe Motor Controller in Mixed-Critical Environment with Runtime Updating Capabilities}\\
+    \textsl{Partners: Jos\'{e} Luis Guti\'{e}rrez, University of Granada, Spain \\ Miguel M\'{e}ndez, Seven Solutions Inc., Spain} \\
+    Duration: \hfill \textbf{November 5 - November 17 2012}
+
+    \textbf{Safe core-to-core channel implementation}\\
+    \textsl{Partners: William Davy, Wittenstein Inc., UK} \\
+    Duration: \hfill \textbf{May 23 - May 24 2012}
+
+    \section{\mysidestyle Work\\Experience}
+    \textbf{Åbo Akademi University}, Turku, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{PhD Student} \hfill \textbf{March 2011 -- }
+
+    \textbf{Åbo Akademi University}, Turku, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Research assistant} \hfill \textbf{April 2010 -- March 2011}
+
+    \textbf{Brisa Inc.}, Pedersöre, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{IT manager} \hfill \textbf{May 2009 -- September 2009}
+
+    \textbf{Herrmans Inc.}, Pedersöre, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{IT support} \hfill \textbf{May 2008 -- September 2008}
+
+    \textbf{Brisa Inc.}, Pedersöre, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Webshop assistant} \hfill \textbf{May 2007 -- September 2007}
+
+    \textbf{Digicomp Inc.}, Jakobstad, Finland\vspace{0mm}\\\vspace{0mm}%
+    \textsl{Sales person} \hfill \textbf{July 2006 -- September 2006}\\    
+    \textsl{Technical support} \hfill \textbf{May 2005 -- January 2005}
+    
+
+    %__________________________________________________________________________________________________________________
+    % Referees
+%    \section{\mysidestyle Referees} 
+%    {\sl Available on request.}
+
+
+
+%______________________________________________________________________________________________________________________
+\section{\mysidestyle Referees} 
+
+\begin{tabular}{@{}p{6cm}p{6cm}}
+\textbf{Prof. Johan Lilius}       &  \textbf{Dr. Sébastien Lafond}                   \\
+Professor                               &  Post-doc researcher                       \\
+Åbo Akademi University                     &  Åbo Akademi University                      \\
+Turku Finland			           &  Turku Finland        \\
+phone: \textsl{available on request}    &  phone: \textsl{available on request}     \\
+e-mail: \textsl{available on request}   &  e-mail: \textsl{available on request}    \\
+\end{tabular}
+
+% \begin{tabular}{@{}p{6cm}p{6cm}}
+% \textbf{Dr Conrad Sanderson}            &  \textbf{Mr Sean Loye}                    \\
+% Researcher                              &  Systems Engineer                         \\
+% National ICT Australia                  &  Hewlett Packard                          \\
+% St Lucia, Queensland, Australia         &  Milton, Queensland, Australia            \\
+% phone: \textsl{available on request}    &  phone: \textsl{available on request}     \\
+% e-mail: \textsl{available on request}   &  e-mail: \textsl{available on request}    \\
+% \end{tabular}
+
+
+
+%______________________________________________________________________________________________________________________
+
+\include{ecourse}
+
+\end{resume}
+\end{document}
+
+
+%______________________________________________________________________________________________________________________
+% EOF
+
