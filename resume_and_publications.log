@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.20)  24 JUL 2018 07:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.20)  20 JUN 2018 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume.tex
-(./resume.tex
+**resume_and_publications.tex
+(./resume_and_publications.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 28 language(s) loaded.
 (./resume.cls
@@ -776,7 +776,7 @@ Package csquotes Info: ... none found.
 Package csquotes Warning: No multilingual support.
 (csquotes)                Cannot enable multilingual quotes on input line 27.
 
-No file resume.aux.
+No file resume_and_publications.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
@@ -883,34 +883,34 @@ ABD: EveryShipout initializing macros
 File: simon.jpg Graphic file (type jpg)
 <use simon.jpg>
 Package pdftex.def Info: simon.jpg  used on input line 31.
-(pdftex.def)             Requested size: 116.43471pt x 160.09772pt.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 66.
+(pdftex.def)             Requested size: 186.29623pt x 256.15733pt.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 65.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 66.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 65.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 66.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 65.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 66.
+(Font)              <9> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 66.
+(Font)              <6> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 66.
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+(Font)              <5> on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -919,21 +919,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 \providecommand\tcolorbox@label[2]{}
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./simon.jpg>]
-<flags.png, id=17, 602.25pt x 63.23625pt>
+<flags.png, id=18, 602.25pt x 63.23625pt>
 File: flags.png Graphic file (type png)
 <use flags.png>
-Package pdftex.def Info: flags.png  used on input line 115.
+Package pdftex.def Info: flags.png  used on input line 114.
 (pdftex.def)             Requested size: 60.22852pt x 6.32399pt.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 118.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 117.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 118.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 117.
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
+Underfull \hbox (badness 10000) in paragraph at lines 135--147
 
  []
 
@@ -942,40 +942,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--147
 
  []
 
-<star.jpg, id=18, 256.96pt x 256.96pt>
-File: star.jpg Graphic file (type jpg)
-<use star.jpg>
-Package pdftex.def Info: star.jpg  used on input line 148.
-(pdftex.def)             Requested size: 7.70847pt x 7.70847pt.
-File: star.jpg Graphic file (type jpg)
-<use star.jpg>
-Package pdftex.def Info: star.jpg  used on input line 148.
-(pdftex.def)             Requested size: 7.70847pt x 7.70847pt.
-File: star.jpg Graphic file (type jpg)
-<use star.jpg>
-Package pdftex.def Info: star.jpg  used on input line 148.
-(pdftex.def)             Requested size: 7.70847pt x 7.70847pt.
 [2
 
- <./flags.png (PNG copy)> <./star.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--206
-
- []
-
-[3
+ <./flags.png (PNG copy)>] [3
 
 ]
-Overfull \hbox (24.30934pt too wide) in paragraph at lines 251--266
+Overfull \hbox (32.84526pt too wide) in paragraph at lines 377--385
 [][] 
  []
 
@@ -985,25 +957,28 @@ Overfull \hbox (24.30934pt too wide) in paragraph at lines 251--266
 No file ecourse.tex.
  ) 
 Here is how much of TeX's memory you used:
- 22020 strings out of 494365
- 458661 string characters out of 6168660
- 662194 words of memory out of 5000000
- 25068 multiletter control sequences out of 15000+600000
- 43626 words of font info for 40 fonts, out of 8000000 for 9000
+ 22028 strings out of 494365
+ 458815 string characters out of 6168660
+ 663195 words of memory out of 5000000
+ 25071 multiletter control sequences out of 15000+600000
+ 56713 words of font info for 44 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
- 54i,10n,85p,822b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/sha
+ 54i,10n,85p,839b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/sha
 re/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmsy9.pfb>
-Output written on resume.pdf (4 pages, 254313 bytes).
+fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mro8.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmsy9.pfb>
+Output written on resume_and_publications.pdf (4 pages, 382230 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
